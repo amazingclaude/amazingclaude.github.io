@@ -1,3 +1,4 @@
+
 @import url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
 * {
   -webkit-box-sizing: border-box;
@@ -56,14 +57,14 @@ ul {
 }
 
 .list-item {
-  background: #000000;
-  color: #cdaa7d ;
+  background: #aea7a0;
+  color: #ec2222 ;
   text-align: center;
   height: 2.5em;
   width: 4em;
   vertical-align: middle;
   line-height: 2.5em;
-  border-bottom: 1px solid #060606;
+  border-bottom: 1px solid #ec2222;
   position: relative;
   display: block;
   text-decoration: none;
@@ -77,7 +78,7 @@ ul {
 }
 .list-item:hover {
   background: #ff6e42;
-  color: #fffcfb;
+  color: #ec2222;
   top: -0.5em;
   left: 0.5em;
   -webkit-transition: top 0.25s linear, left 0.25s linear, background 0.1s linear, color 0.1s linear;
@@ -117,7 +118,7 @@ ul {
   content: "";
   position: absolute;
   height: 4em;
-  background: #181818;
+  background: #5a5454;
   width: 0.5em;
   bottom: -2.25em;
   left: 1.5em;
@@ -131,7 +132,7 @@ ul {
   content: "";
   position: absolute;
   height: 2.5em;
-  background: #121212;
+  background: #837b7b;
   width: 0.5em;
   top: 0.215em;
   left: -0.45em;
