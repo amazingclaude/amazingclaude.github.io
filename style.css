@@ -58,13 +58,13 @@ ul {
 
 .list-item {
   background: #aea7a0;
-  color: #ec2222 ;
+  color: #060606  ;
   text-align: center;
   height: 2.5em;
   width: 4em;
   vertical-align: middle;
   line-height: 2.5em;
-  border-bottom: 1px solid #ec2222;
+  border-bottom: 1px solid #060606 ;
   position: relative;
   display: block;
   text-decoration: none;
