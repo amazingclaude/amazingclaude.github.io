@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://www.html5tricks.com/demo/css3-3d-cube-loading/index.html -->
+<html class=" -webkit-"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+
+  <title>Claude Liao's Web</title>
+
+    <style>
+body {
+  background-color: #dedede;
+  font-size: 12px;
+}
+
+.base {
+  height: 9em;
+  left: 50%;
+  margin: -7.5em;
+  padding: 3em;
+  position: absolute;
+  top: 50%;
+  width: 9em;
+  transform: rotateX(45deg) rotateZ(45deg);
+  transform-style: preserve-3d;
+}
+
+.cube,
+.cube:after,
+.cube:before {
+  content: '';
+  float: left;
+  height: 3em;
+  position: absolute;
+  width: 3em;
+}
+
+/* Top */
+.cube {
+  background-color: #05afd1;
+  position: relative;
+  transform: translateZ(3em);
+  transform-style: preserve-3d;
+  transition: .25s;
+  box-shadow: 13em 13em 1.5em rgba(0, 0, 0, 0.1);
+  animation: anim 1s infinite;
+}
+.cube:after {
+  background-color: #049dbc;
+  transform: rotateX(-90deg) translateY(3em);
+  transform-origin: 100% 100%;
+}
+.cube:before {
+  background-color: #048ca7;
+  transform: rotateY(90deg) translateX(3em);
+  transform-origin: 100% 0;
+}
+.cube:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.cube:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.cube:nth-child(3) {
+  animation-delay: 0.15s;
+}
+.cube:nth-child(4) {
+  animation-delay: 0.2s;
+}
+.cube:nth-child(5) {
+  animation-delay: 0.25s;
+}
+.cube:nth-child(6) {
+  animation-delay: 0.3s;
+}
+.cube:nth-child(7) {
+  animation-delay: 0.35s;
+}
+.cube:nth-child(8) {
+  animation-delay: 0.4s;
+}
+.cube:nth-child(9) {
+  animation-delay: 0.45s;
+}
+
+@keyframes anim {
+  50% {
+    transform: translateZ(0.5em);
+  }
+}
+
+</style>
+
+    <script src="./3Dcube_files/prefixfree.min.js.download"></script>
+	
+</head>
+
+<body>
+
+
+   
+<div style="text-align:center;clear:both;"><script src="./3Dcube_files/follow.js.download" type="text/javascript"></script>
+</div>
+  <div class="base">
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+</div>
+	
+		<p style="text-align:right;font-size:14px">
+		<a href="http://amazingclaude.github.io">
+		[English]
+		</a>
+		</p>
+		<h1 style="text-align:center"   >
+		欢迎来到我的小站
+		</h1>
+		
+		<h2 style="text-align:center" >
+		爱生活的克劳德 <br>
+		电气工程及其自动化 本科 - 湖南大学 2015<br>
+		人工智能 研究生 - 阿伯丁大学 2018<br>
+        欢迎关注我的个人公众号 amazingclaude <br>
+		◆
+		<a href="http://amazingclaude.github.io/cn/cnprofile">
+		关于我 
+		</a>
+		&nbsp  ◆
+		<a href="https://amazingclaude.wordpress.com">
+		博客 
+		</a>
+		(EN)
+		&nbsp  ◆
+		<a href="https://amazingliao.wordpress.com">
+		博客 
+		</a>
+		(CN)
+		&nbsp  ◆
+		<a href="https://amazingliao.wordpress.com/contact/">
+		联系 
+		</a>
+		
+		</h2>
+	
+	
+</body></html>
