@@ -152,9 +152,26 @@ $(function(){
 });
 
 
+/*====================================================
+                        Other: 
+Adjust the link carousel number for phone screen
+====================================================*/
+
+$('.owl-carousel').owlCarousel({
 
 
-
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:6
+        }
+    }
+})
 
 
 
