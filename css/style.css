@@ -17,7 +17,7 @@
 html,
 body {
     height: 100%;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 body {
@@ -46,6 +46,7 @@ h3 {
 
 #home-cover {
     height: 100%;
+    width: 100%;
     background-color: #B2B7B8;
 }
 
@@ -58,7 +59,7 @@ h3 {
 #home-content-box-inner {
     display: table-cell;
     position:relative;
-    top:20%;
+    top:12%;
     
 /* vertical-align: middle;*/
     /* text-align: center; */
@@ -699,12 +700,13 @@ form .form-control {
 
 .base {
     height: 9em;
-    left: 51.5%;
-    margin: -7.5em;
-    padding: 3em;
-    position: absolute;
-    top: 60%;
-    width: 15em;
+    left: 50%;
+    margin-left: -4.5em;
+    margin-bottom: -7.5em;
+/*    padding: 3em;*/
+    position: relative;
+    top: 55%;
+    width: 9em;
     transform: rotateX(45deg) rotateZ(45deg);
     transform-style: preserve-3d;
 }
