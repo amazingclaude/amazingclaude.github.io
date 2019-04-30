@@ -47,7 +47,8 @@ h3 {
 #home-cover {
     height: 100%;
     width: 100%;
-    background-color: #B2B7B8;
+    background-image: url("../img/background.jpg");
+/*    background-color: #B2B7B8;*/
 }
 
 #home-content-box {
